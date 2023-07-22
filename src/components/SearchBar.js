@@ -1,24 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { SearchBarButton } from './Buttons';
 
 const CenteredContainer = styled.div`
 	display: flex;
 	align-items: center;
-`;
-
-const Button = styled.button`
-	background: none;
-	font-weight: 500;
-	border-radius: 40px;
-	border: 1px solid var(--gray-border);
-	padding: 15px 30px;
-	width: 300px;
-	box-shadow: 0px 2px 4px var(--gray-border);
-	transition: 0.5s all;
-	text-align: left;
-	&:hover {
-		box-shadow: 0px 2px 4px var(--dark-gray-border);
-	}
 `;
 
 const StyledSearchIcon = styled.div`
@@ -64,7 +50,7 @@ const SearchIcon = () => {
 const SearchBar = () => {
 	return (
 		<CenteredContainer>
-			<Button>Start your search</Button>
+			<SearchBarButton>Start your search</SearchBarButton>
 			<SearchIcon />
 		</CenteredContainer>
 	);
