@@ -3,6 +3,8 @@
   --main-text: #222222;
   --subtitle-light-gray: #7b7b7b;
   --gray-border: #dddddd;
+  --dark-gray-border: #a8a8a8;
+  --left-right-padding: 160px;
 }
 
 body {
